@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+
+.ave-button {
+    position: sticky;
+    top: 25px;
+    left: 25px;
+    z-index: +1;
+}
+
+.b1 {
+    border-radius: 20px;
+    border: 3px solid darkred;
+    background-color: darkgoldenrod;
+    font-family: monospace;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.b1:hover {
+    filter: brightness(2);
+    cursor: pointer;
+}
+
+h1 {
+    position: relative;
+    color: white;
+    font-family: monospace;
+    left: 38%;
+    width: 50%;
+}
+
+.navlist {
+    position: relative;
+    display: block;
+    color: white;
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.navlist a {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 2%;
+    font-family: monospace;
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+    left: 29%;
+}
+
+.navlist a:hover {
+    background-color: rgb(25,25,25);
+}
+
+img#header_logo {
+    display: block;
+    position: relative;
+    top: 0;
+    width: 15%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-bck img {
+    position: relative;
+    bottom: -150px;
+    max-width: 100%;
+}
+
+.info {
+    display: block;
+    position: relative;
+    font-family: monospace;
+    top: -450px;
+    text-align: center;
+}
+
+.info > h3 {
+    color: white;
+}
+
+.info > p {
+    color: white;
+}
+
+.bottom-nav > a {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    left: 25%;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 2vw;
+    padding: 2%;
+}
+
+.bottom-nav a:hover {
+    background-color: rgb(25,25,25,75%);
+    
+}

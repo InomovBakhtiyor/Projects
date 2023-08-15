@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Projects2</title>
+</head>
+<body>
+    <div class="mainCard">
+        <button class="btnRegister" onclick="registerForm">Register</button>
+        <h1 class="title">Cool App</h1>
+        <img class="profilePic" src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80">
+        <input class="inputMail" type="email" placeholder="Email">
+        <input class="inputPassword" type="password" placeholder="Password">
+        <button class="btnEnter" onclick="LogIn()">Enter</button>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script>
+    function LogIn(){
+        document.getElementsByClassName('btnRegister')[0].innerHTML = "Login";
+        document.getElementsByClassName('title')[0].innerHTML = "Register to Cool App";
+        document.getElementsByClassName('inputMail')[0].placeholder = "Enter your email";
+        document.getElementsByClassName('inputPassword')[0].placeholder = "Enter your password";
+        document.getElementsByClassName('btnEnter')[0].innerHTML = "Register";
+    }
+    function LogIn(){
+        Swal.fire({
+            position: 'mid',
+            icon: 'success',
+            title: 'Welcome to the Cool App',
+            showConfirmButton: false,
+            timer: 1500
+        })
+    }
+</script>
+</html>
