@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ANKETA</title>
+	    <link rel="stylesheet" href="style.css">
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Mening Anketam</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Asosiy sahifa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Qo'shimcha</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Anketa shakli:
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Ariza</a></li>
+                          <li><a class="dropdown-item" href="#">Bildirishnoma</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Tushuntirish xati</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Qidiruv" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Izlash</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+            <div class="container border">
+                <h1 class="text-center text-danger p-3"> ANKETAni to'ldiring!!! </h1>
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                      <label for="validationCustom01" class="form-label">Familiyangiz:</label>
+                      <input type="text" class="form-control" id="validationCustom01" name="fam" value="Palonchiyev" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustom02" class="form-label">Ismingiz:</label>
+                      <input type="text" class="form-control" id="validationCustom02" name="Ism" value="Pistonchi" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustomUsername" class="form-label">Username</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" name="username" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label">Yashash shahringiz:</label>
+                      <input type="text" class="form-control" id="validationCustom03" name="shahar" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom04" class="form-label">Til:</label>
+                      <select class="form-select" id="validationCustom04" name="language" required>
+                        <option value="uz">Uzbek</option>
+                        <option value="kr">Korean</option>
+                        <option value="en">English</option>
+                        <option value="ru">Russian</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a language.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom05" class="form-label">Pochta manzili:</label>
+                      <input type="text" class="form-control" id="validationCustom05" name="zip" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail3" class="col-form-label">Email</label>
+                        <div class="col-sm-12">
+                          <input type="email" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword3" class="col-form-label">Password</label>
+                        <div class="col-sm-12">
+                          <input type="password" class="form-control" id="inputPassword3">
+                        </div>
+                    </div>
+                    <span>Uylanganmisiz?</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="isMarried" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Ha
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="isMarried" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          Yo'q
+                        </label>
+                    </div>
+                    <span>O'zingiz haqingizda qisqacha ma'lumot bering:</span>
+                    <div class="form-check">
+                        <textarea name="textarea" class="col-md-8"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Jo'natish</button>
+    	              <button class="btn btn-primary" type="reset">Qaytarish</button>
+    	              <button class="btn btn-primary" type="button">Oddiy tugmacha</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

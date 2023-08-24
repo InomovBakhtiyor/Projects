@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background-color: greenyellow;
+    background-image: url(images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+input, select, textarea {
+    border: solid red 2px;
+    border-radius: 5px;
+}
+
+button {
+    border: solid #000 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #000;
+    border: solid red 2px;
+}
+
+label, span {
+    color: white;
+}
+
+.container-fluid {
+    padding-top: 50px;
+}
+
+.container-1 {
+    width: 50%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    align-items: center;
+    height: 600px;
+    margin-left: 50px;
+}
+
+.container-2 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    margin: 0 auto;
+    color: white;
+}
